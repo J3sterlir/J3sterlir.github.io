@@ -1,1 +1,180 @@
-Hello World
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preliminary Examination CSDC105</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+        *{
+            margin: 0;
+        }
+        .TOPPAGE{
+            background-image: url(https://images.unsplash.com/photo-1431456702877-ffb4c72ebf43);
+            background-repeat: no-repeat; 
+            background-size: cover; background-color: rgba(0, 0, 0, 0.6); background-blend-mode: darken;
+            height: 100vh;background-attachment: fixed;
+        }
+        .BOTTOMPAGE{
+            background-image: url(https://images.unsplash.com/photo-1736967439874-d0c856eacda1);
+            background-repeat: no-repeat;
+            height: 100vh; background-attachment: fixed;
+            background-size: cover; background-color: rgba(0, 0, 0, 0.6); background-blend-mode: darken;
+        }
+        .DOWNPAGE{
+            background-image: url(https://images.unsplash.com/photo-1602131133761-c698725d1d0b);
+            background-repeat: no-repeat;
+            height: 100vh; background-attachment: fixed;
+            background-size: cover; background-color: rgba(0, 0, 0, 0.6); background-blend-mode: darken;
+        }
+        .PROFILEPIC {
+            border-radius: 20%;
+            z-index: 2;
+            width: 13vw;
+            margin-top: 50px; margin-left: 40vh;
+            filter: drop-shadow(0px 0px 6px #0000008a);
+        }
+        .PROFILE {
+            background: rgb(254,254,254);
+            background: radial-gradient(circle, rgb(255, 255, 255) 53%, rgba(255, 255, 255, 0.651) 100%);
+            text-align: center;
+            width: 20vw ; height: 10vw;
+            margin-left: 33vh; margin-top: -15vh;
+            border-radius: 5%; padding-top: 20vh;
+        }
+        .BASICINFOREC {
+            background: rgb(185,185,185);
+            background: linear-gradient(113deg, rgba(185,185,185,1) 0%, rgba(254,254,254,1) 100%);
+            filter: drop-shadow(0px 0px 100px #a7a7a7b4);
+            width: 50vw; height: 100vh;
+            max-height: 18.8vw;
+            border-radius: 25px;
+            margin-left: 80vh; margin-top: -41vh;
+            text-align: left; padding-top: 3vh; padding-left: 3vh;
+            line-height: 4vh;
+        }
+        .Statement {
+            background: rgb(185,185,185);
+            background: linear-gradient(113deg, rgba(185,185,185,1) 0%, rgba(254,254,254,1) 100%);
+            filter: drop-shadow(0px 0px 100px #a7a7a7b4);
+            width: 148vh; height: 100vh;
+            max-height: fit-content;
+            border-radius: 25px;
+            margin-left: 33vh; margin-top: 6.1vh;
+            text-align: left;  padding-top: 1vh; padding-left: 3vh; padding-right: 3vh;
+        }
+
+        .Raleway {
+            font-family: "Raleway", serif;
+        }
+        .BASICINFOREC h1{
+            font-size: 2rem;
+            font-weight: normal;
+            line-height: 30px;
+        }
+        .PROFILE h2{
+            font-size: 2rem;
+            font-weight: normal;
+        }
+        .BASICINFOREC article{
+            line-height: 3;
+            font-size: 1.1rem;
+            padding-left: 6vh;
+        }
+        .Statement article{
+            font-size: 1.5rem;
+            font-weight: normal;
+            line-height: 2.5rem;
+        }
+        .Statement h1{
+            font-size: 1.5rem;
+            line-height: 2;
+        }
+        
+        .LINKRECT {
+            background-color:  rgba(255, 255, 255, 0.637); background-blend-mode: lighten;
+            width: fit-content; max-width: fit-content; max-height: fit-content;
+            border-radius: 25px;
+            filter: drop-shadow(0px 0px 6px #0000008a);
+            margin-top: 84vh; margin-left: 50vh;
+            position: absolute;
+            padding-right: 11vh;
+        }
+        .LINKLABELS{
+            font-family: "Roboto", serif;
+            font-size: large;
+            margin-top: 70; margin-left: 168;
+        }
+        .facebooklogo{
+            width: 70; height: 70;
+            margin-left: 10vh; margin-top: 10;
+        }
+        .instagramlogo{
+            width: 70; height: 70;
+            margin-left: 10vh; margin-top: 10;
+        }
+        .unsplashlogo{
+            width: 70; height: 70;
+            margin-left: 10vh; margin-top: 10;
+        }
+        .githublogo{
+            width: 70; height: 70;
+            margin-left: 10vh; margin-top: 10;
+        }
+        .linkedinlogo{
+            width: 70; height: 70;
+            margin-left: 10vh; margin-top: 10;
+        }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="TOPPAGE">
+            <img class ="PROFILEPIC" src="https://lh3.googleusercontent.com/d/1PqKIQ4LJnxRvExaIjDr8eAlheoRxCiBG=w1000?authuser=0">
+            <div class="PROFILE">
+                <h2 class="Raleway">Jeremiah <b>Lirag</b></h2>
+                <br>
+                <br>
+                <article class="Raleway">Bachelor Of science In Information Technology</article>
+            </div>
+
+            <div class="BASICINFOREC">
+                <h1 class="Raleway">Basic <b>Information</b></h1>
+                <br>
+                <article class="Raleway">
+                    <p><b>FULL NAME:</b> Jeremiah Martin D. Lirag.</p> 
+                    <p><b>ADDRESS:</b> Corner J. Miranda, Taal Avenue Concepcion Pequena Naga City</p>
+                    <p><b>Mobile No.</b> 09998576839</p>
+                    <p><b>Email: </b><a href="mailto: Jeremiah.lirag@gmail.com">Jeremiah.lirag@gmail.com </a></p>
+                </article>
+            </div>
+
+            <div class="Statement">
+                <h1 class="Raleway">PERSONAL STATEMENT</h1>
+                <article class="Raleway">
+                    My interest in computers and modern technology, led me to the field Information Technology. I focus on designing websites and UI/UX, and also hardware maintenance. 
+                    I am not so good in backend systems, but I am still building and improving on my skills. I built small projects with other people, mostly personal projects.
+                    I prefer to work with a team in a project, as I can contirbute and recieve ideas.
+                </article>
+    
+            </div>
+    
+        </div>
+
+        <div class="BOTTOMPAGE">
+        </div>
+        <div class="DOWNPAGE">
+            <div class="LINKRECT">
+                <a href="https://www.facebook.com/profile.php?id=61550747054132" target="_blank"><img class="Facebooklogo" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png"></a>
+                <a href="https://www.instagram.com/jm.lirg/" target="_blank"><img class="instagramlogo" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"></a>
+                <a href="https://unsplash.com/@j3st_911" target="_blank"><img class="unsplashlogo" src="https://cdn-icons-png.flaticon.com/512/5968/5968763.png"></a>
+                <a href="https://github.com/J3sterlir" target="_blank"><img class="githublogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1024px-GitHub_Invertocat_Logo.svg.png"></a>
+                <a href="https://www.linkedin.com/in/jeremiah-martin-lirag-b0a97a128/" target="_blank"><img class="linkedinlogo" src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"></a>
+            </div>
+        </div>
+    </body>
+
+</html>
